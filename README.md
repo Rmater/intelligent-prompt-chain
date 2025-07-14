@@ -1,4 +1,4 @@
-Welcome to the Intelligent Prompt Chain
+👌Welcome to the Intelligent Prompt Chain👌
 
 Automates user story breakdown into:
 
