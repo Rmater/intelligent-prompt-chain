@@ -75,14 +75,23 @@ Step 5: DevOps Specialist
 ---------------------
 
 File Structure
+
 .ai/
+
 ├── prompts/0_...5_.prompt.md
+
 ├── scripts/fetch_user_story.py
+
 ├── meta.yaml / meta.json
+
 input/
+
 output/
+
 README.md
+
 index.html
+
 ----------------------
 
 Example Use Case
