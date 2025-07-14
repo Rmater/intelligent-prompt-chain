@@ -11,6 +11,7 @@ Dev Instructions
 QA Plans
 
 CI/CD Pipelines
+
 --------------------
 
 Who Is This For?
@@ -24,6 +25,7 @@ QA/Test Engineers
 DevOps Teams
 
 Product Managers
+
 -------------------
 
 Workflow Overview
@@ -41,6 +43,7 @@ Create instructions
 Generate test plan
 
 Build DevOps pipeline
+
 ---------------------
 
 Tooling and Inputs
@@ -52,6 +55,7 @@ Azure DevOps API
 Project structure file (tree.txt)
 
 YAML + Markdown prompt files
+
 ---------------------
 
 Prompt Chain Roles
@@ -67,6 +71,7 @@ Step 3: Tech Lead
 Step 4: QA Engineer
 
 Step 5: DevOps Specialist
+
 ---------------------
 
 File Structure
@@ -95,6 +100,7 @@ Tasks → Developer instructions
 Instructions → QA test plan
 
 Tests → CI/CD Pipeline
+
 ---------------------
 
 Live Demo (Optional)
@@ -106,6 +112,7 @@ Use fetch_user_story.py
 Walk through each prompt
 
 Show generated output
+
 ---------------------
 
 Benefits
@@ -117,6 +124,7 @@ Aligns dev, QA, and DevOps
 Reduces handover friction
 
 Accelerates onboarding
+
 ---------------------
 
 
