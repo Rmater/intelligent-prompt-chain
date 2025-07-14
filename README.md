@@ -1,3 +1,124 @@
+Welcome to the Intelligent Prompt Chain
+
+Automates user story breakdown into:
+
+Architecture Analysis
+
+Task Mapping
+
+Dev Instructions
+
+QA Plans
+
+CI/CD Pipelines
+--------------------
+
+Who Is This For?
+
+Agile Software Engineers
+
+Tech Leads and Architects
+
+QA/Test Engineers
+
+DevOps Teams
+
+Product Managers
+-------------------
+
+Workflow Overview
+
+Fetch user story from Azure DevOps
+
+Analyze project structure
+
+Generate architecture overview
+
+Break story into tasks
+
+Create instructions
+
+Generate test plan
+
+Build DevOps pipeline
+---------------------
+
+Tooling and Inputs
+
+GitHub Copilot / AI LLMs (ChatGPT, Claude)
+
+Azure DevOps API
+
+Project structure file (tree.txt)
+
+YAML + Markdown prompt files
+---------------------
+
+Prompt Chain Roles
+
+Step 0: Software Architect
+
+Step 1: System Analyst
+
+Step 2: Agile Engineer
+
+Step 3: Tech Lead
+
+Step 4: QA Engineer
+
+Step 5: DevOps Specialist
+---------------------
+
+File Structure
+.ai/
+├── prompts/0_...5_.prompt.md
+├── scripts/fetch_user_story.py
+├── meta.yaml / meta.json
+input/
+output/
+README.md
+index.html
+----------------------
+
+Example Use Case
+
+Story: "Allow agent to update CR Number"
+
+Output:
+
+Folder tree → Architecture map
+
+Story → Technical tasks
+
+Tasks → Developer instructions
+
+Instructions → QA test plan
+
+Tests → CI/CD Pipeline
+---------------------
+
+Live Demo (Optional)
+
+Open repo in VSCode / GitHub
+
+Use fetch_user_story.py
+
+Walk through each prompt
+
+Show generated output
+---------------------
+
+Benefits
+
+Saves time in planning
+
+Aligns dev, QA, and DevOps
+
+Reduces handover friction
+
+Accelerates onboarding
+---------------------
+
 
 # 🤖 Intelligent Prompt Chain (Automated AI Workflow)
 
