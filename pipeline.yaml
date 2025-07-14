@@ -1,0 +1,16 @@
+# 🛠 DevOps Pipeline (GitHub Actions)
+
+```yaml
+name: Build and Test
+on: [push]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v3
+    - run: dotnet build
+    - run: dotnet test
+  frontend:
+    steps:
+    - run: npm install && npm run build && npm run test
+```
