@@ -1,0 +1,51 @@
+{
+  "name": "Intelligent Prompt Chain",
+  "description": "AI prompt workflow to automate user story analysis and task generation",
+  "steps": [
+    {
+      "id": "step_0",
+      "title": "Analyze Project Tree",
+      "input": "input/project_structure.txt",
+      "prompt": ".ai/prompts/0_tree.prompt.md",
+      "output": "output/structure.md"
+    },
+    {
+      "id": "step_1",
+      "title": "Generate Architecture Overview",
+      "input": "output/structure.md",
+      "prompt": ".ai/prompts/1_analysis.prompt.md",
+      "output": "output/analysis.md"
+    },
+    {
+      "id": "step_2",
+      "title": "Break Down User Story",
+      "input": [
+        "input/user_story.yaml",
+        "output/analysis.md"
+      ],
+      "prompt": ".ai/prompts/2_userstory.prompt.md",
+      "output": "output/tasks.md"
+    },
+    {
+      "id": "step_3",
+      "title": "Developer Instructions",
+      "input": "output/tasks.md",
+      "prompt": ".ai/prompts/3_instruction.prompt.md",
+      "output": "output/instructions.md"
+    },
+    {
+      "id": "step_4",
+      "title": "Test Plan",
+      "input": "output/instructions.md",
+      "prompt": ".ai/prompts/4_tests.prompt.md",
+      "output": "output/test_plan.md"
+    },
+    {
+      "id": "step_5",
+      "title": "DevOps Pipeline",
+      "input": "output/test_plan.md",
+      "prompt": ".ai/prompts/5_devops.prompt.md",
+      "output": "output/pipeline.yaml"
+    }
+  ]
+}

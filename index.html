@@ -1,0 +1,43 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Intelligent Prompt Chain</title>
+  <style>
+    body { font-family: sans-serif; margin: 2rem; background: #f7f7f7; }
+    h1 { color: #333; }
+    .step { margin-bottom: 1.5rem; padding: 1rem; background: white; border-left: 5px solid #00a3ff; box-shadow: 0 0 5px #ccc; }
+    .step h2 { margin: 0 0 0.5rem 0; color: #0077cc; }
+    .step p, .step code { margin: 0.2rem 0; }
+  </style>
+</head>
+<body>
+  <h1>🧠 Intelligent Prompt Chain Workflow</h1>
+
+  <div class="step">
+    <h2>Step 0: Analyze Project Tree</h2>
+    <code>input/project_structure.txt → output/structure.md</code>
+  </div>
+  <div class="step">
+    <h2>Step 1: Generate Architecture Overview</h2>
+    <code>output/structure.md → output/analysis.md</code>
+  </div>
+  <div class="step">
+    <h2>Step 2: Break Down User Story</h2>
+    <code>input/user_story.yaml + output/analysis.md → output/tasks.md</code>
+  </div>
+  <div class="step">
+    <h2>Step 3: Developer Instructions</h2>
+    <code>output/tasks.md → output/instructions.md</code>
+  </div>
+  <div class="step">
+    <h2>Step 4: Test Plan</h2>
+    <code>output/instructions.md → output/test_plan.md</code>
+  </div>
+  <div class="step">
+    <h2>Step 5: DevOps Pipeline</h2>
+    <code>output/test_plan.md → output/pipeline.yaml</code>
+  </div>
+</body>
+</html>
